@@ -1,6 +1,5 @@
 ## 什么是 Docker
 
-
 官网地址：https://www.docker.com/
 
 Docker 最初是 dotCloud 公司创始人 Solomon Hykes 在法国期间发起的一个公司内部项目，它是基于 dotCloud 公司多年云服务技术的一次革新，并于 [2013 年 3 月以 Apache 2.0 授权协议开源][docker-soft]，主要项目代码在 [GitHub](https://github.com/moby/moby) 上进行维护。Docker 项目后来还加入了 Linux 基金会，并成立推动 [开放容器联盟（OCI）](https://www.opencontainers.org/)。
@@ -39,9 +38,9 @@ Docker 在容器的基础上，进行了进一步的封装，从文件系统、�
 
 对开发和运维（[DevOps](http://www.qfdmy.com/wp-content/themes/quanbaike/go.php?url=aHR0cHM6Ly96aC53aWtpcGVkaWEub3JnL3dpa2kvRGV2T3Bz)）人员来说，最希望的就是一次创建或配置，可以在任意地方正常运行。
 
-使用 Docker 可以通过定制应用镜像来实现持续集成、持续交付、部署。开发人员可以通过 ==Dockerfile== 来进行镜像构建，并结合 [持续集成(Continuous Integration)]() 系统进行集成测试，而运维人员则可以直接在生产环境中快速部署该镜像，甚至结合 [持续部署(Continuous Delivery/Deployment)]() 系统进行自动部署。
+使用 Docker 可以通过定制应用镜像来实现持续集成、持续交付、部署。开发人员可以通过 Dockerfile 来进行镜像构建，并结合 [持续集成(Continuous Integration)]() 系统进行集成测试，而运维人员则可以直接在生产环境中快速部署该镜像，甚至结合 [持续部署(Continuous Delivery/Deployment)]() 系统进行自动部署。
 
-而且使用 ==Dockerfile== 使镜像构建透明化，不仅仅开发团队可以理解应用运行环境，也方便运维团队理解应用运行所需条件，帮助更好的生产环境中部署该镜像。
+而且使用 Dockerfile 使镜像构建透明化，不仅仅开发团队可以理解应用运行环境，也方便运维团队理解应用运行所需条件，帮助更好的生产环境中部署该镜像。
 
 ### 更轻松的迁移
 

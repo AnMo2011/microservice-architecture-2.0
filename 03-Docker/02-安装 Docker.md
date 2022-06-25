@@ -4,19 +4,19 @@ Docker CE 支持多种平台，如下表所示
 
 ### 桌面
 
-平台 | 架构
----|---
-[Docker Desktop for Mac (macOS)](https://docs.docker.com/docker-for-mac/install/) | X64
-[Docker Desktop for Windows (Microsoft Windows 10)](https://docs.docker.com/docker-for-windows/install/) | X64
+| 平台                                                                                                       | 架构  |
+|----------------------------------------------------------------------------------------------------------|-----|
+| [Docker Desktop for Mac (macOS)](https://docs.docker.com/docker-for-mac/install/)                        | X64 |
+| [Docker Desktop for Windows (Microsoft Windows 10)](https://docs.docker.com/docker-for-windows/install/) | X64 |
 
 ### 服务器
 
-平台 | x86_64 / amd64 | ARM | ARM64 / AARCH64 | IBM Power (ppc64le) | IBM Z (s390x)
----|---|---|---|---|---
-[CentOS](https://docs.docker.com/install/linux/docker-ce/centos/) | ✔ |  | ✔		
-[Debian](https://docs.docker.com/install/linux/docker-ce/debian/) | ✔ | ✔ | ✔		
-[Fedora](https://docs.docker.com/install/linux/docker-ce/fedora/) | ✔ |  | ✔		
-[Ubuntu](https://docs.docker.com/install/linux/docker-ce/ubuntu/) | ✔ | ✔ | ✔	| ✔ | ✔
+| 平台                                                                | x86_64 / amd64 | ARM | ARM64 / AARCH64 | IBM Power (ppc64le) | IBM Z (s390x) |
+|-------------------------------------------------------------------|----------------|-----|-----------------|---------------------|---------------|
+| [CentOS](https://docs.docker.com/install/linux/docker-ce/centos/) | ✔              |     | ✔               |                     |               |
+| [Debian](https://docs.docker.com/install/linux/docker-ce/debian/) | ✔              | ✔   | ✔               |                     |               |
+| [Fedora](https://docs.docker.com/install/linux/docker-ce/fedora/) | ✔              |     | ✔               |                     |               |
+| [Ubuntu](https://docs.docker.com/install/linux/docker-ce/ubuntu/) | ✔              | ✔   | ✔	              | ✔                   | ✔             |
 
 ## 准备安装
 
@@ -92,7 +92,7 @@ https://registry.docker-cn.com
 
 ![](../img/03-00000004.png)
 
-通过修改 daemon 配置文件 ==/etc/docker/daemon.json== 来使用加速器
+通过修改 daemon 配置文件 /etc/docker/daemon.json 来使用加速器
 
 ~~~
 tee /etc/docker/daemon.json <<-'EOF'
