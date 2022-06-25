@@ -53,7 +53,7 @@
 [七、Spring Boot](/07-Spring%20Boot)
 - [01-SpringBoot 简介](/07-Spring%20Boot/01-Spring%20Boot%20简介.md)
 - [02-第一个 SpringBoot 应用程序](/07-Spring%20Boot/02-第一个%20Spring%20Boot%20应用程序.md)
-- [03-SpringBoot 单元测试](/07-Spring Boot/03-Spring%20Boot%20单元测试.md)
+- [03-SpringBoot 单元测试](/07-Spring%20Boot/03-Spring%20Boot%20单元测试.md)
 - [04-SpringBoot 常用配置](/07-Spring%20Boot/04-Spring%20Boot%20常用配置.md)
 - [05-Thymeleaf 简介](/07-Spring%20Boot/05-Thymeleaf%20简介.md)
 - [06-第一个 Thymeleaf 页面](/07-Spring%20Boot/06-第一个%20Thymeleaf%20页面.md)
